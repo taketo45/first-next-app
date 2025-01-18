@@ -12,7 +12,7 @@ export function Header(props) {
             height={38}
             priority
           />
-          <h1 className="text-2xl sm:text-3xl font-bold text-center sm:text-left">{props.title} : {props.infra} 2025/01</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-center sm:text-left">{props.title} : {props.children} {props.date}</h1>
         </div>
         
   );
