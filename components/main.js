@@ -3,7 +3,6 @@ import Image from "next/image";
 
 export function Main() {
   return (
-    <>
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
@@ -43,6 +42,6 @@ export function Main() {
           </a>
         </div>
       </main>
-    </>
+
   );
 }

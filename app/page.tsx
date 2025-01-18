@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {Footer} from "../components/footer";
 import {Main} from "../components/main";
 import {Header} from "../components/header";

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export function Header(props) {
-  console.log(props);
+  // console.log(props);
   return (
         <div>
           <Image
