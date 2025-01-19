@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Header(props) {
   // console.log(props);
@@ -13,6 +14,20 @@ export function Header(props) {
             priority
           />
           <h1 className="text-2xl sm:text-3xl font-bold text-center sm:text-left">{props.title} : {props.children} {props.date}</h1>
+          <nav>
+            <ul className="flex justify-center sm:justify-start space-x-4">
+              <li>
+                <Link href="/">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/About">
+                  About
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </div>
         
   );
